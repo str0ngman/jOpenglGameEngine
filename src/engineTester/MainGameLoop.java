@@ -15,7 +15,6 @@ public class MainGameLoop {
 	public static void main(String[] args){
 		
 		DisplayManager.createDisplay();
-	
 		Loader loader = new Loader();
 		Renderer renderer = new Renderer();
 		StaticShader shader = new StaticShader();
